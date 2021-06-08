@@ -24,3 +24,14 @@ A non-fungible token (NFT) is a unit of data stored on a digital ledger, called 
 
 ### what is WalletConnect?
 WalletConnect is an open source protocol for connecting decentralised applications to mobile wallets with QR code scanning or deep linking. A user can interact securely with any Dapp from their mobile phone, making WalletConnect wallets a safer choice compared to desktop or browser extension wallets.(https://walletconnect.org/)
+
+ # Development
+ ### Debug Mode
+ You can change the value of `Appconstant.Config.DEBUG` to use debug mode(Note: It runs in debug mode, default =true)
+ ```java
+ public static final boolean DEBUG = BuildConfig.DEBUG;
+ ```
+ ### Ethereum Test Network
+ Support for NFTs display of `Rinkeby Test Network` (requires assets under wallet account), simply set Debug to True or directly run the code.
+ 
+ 
