@@ -42,7 +42,7 @@ public class VideoPlayFragment extends VideoSupportFragment {
         ViewGroup root = (ViewGroup) super.onCreateView(inflater, container, savedInstanceState);
         mImageView = new ImageView(getActivity());
         root.addView(mImageView, 1);
-        MyUtils.loadImage(getActivity(), mImageView, mAssetTable.getAsset_image_url(), R.mipmap.ic_full_placeholder);
+        MyUtils.loadImage(getActivity(), mImageView, mAssetTable.getAsset_image_original_url(), R.mipmap.ic_full_placeholder);
         setBackgroundType(PlaybackSupportFragment.BG_LIGHT);
         return root;
     }

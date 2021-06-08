@@ -39,7 +39,7 @@ public class MusicPlayFragment extends PlaybackSupportFragment {
         ViewGroup root = (ViewGroup) super.onCreateView(inflater, container, savedInstanceState);
         ImageView imageView = new ImageView(getActivity());
         root.addView(imageView, 0);
-        MyUtils.loadImage(getActivity(), imageView, mAssetTable.getAsset_image_url(), R.mipmap.ic_full_placeholder);
+        MyUtils.loadImage(getActivity(), imageView, mAssetTable.getAsset_image_original_url(), R.mipmap.ic_full_placeholder);
         setBackgroundType(PlaybackSupportFragment.BG_LIGHT);
         return root;
     }

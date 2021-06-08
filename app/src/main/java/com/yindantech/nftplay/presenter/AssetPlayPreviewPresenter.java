@@ -27,7 +27,7 @@ public class AssetPlayPreviewPresenter extends Presenter {
         AssetTable asset = (AssetTable) item;
         MyViewHolder vh = (MyViewHolder) viewHolder;
 
-        MyUtils.loadImage(vh.imageView.getContext(), vh.imageView, asset.getAsset_image_preview_url(), R.mipmap.ic_preview_placeholder);
+        MyUtils.loadImage(vh.imageView.getContext(), vh.imageView, asset.getAsset_image_url(), R.mipmap.ic_preview_placeholder);
 
         if (MyUtils.isVideo(asset)) {
             vh.iv_media_type.setImageResource(R.mipmap.ic_video);

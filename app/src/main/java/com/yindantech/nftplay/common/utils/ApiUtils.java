@@ -180,7 +180,7 @@ public class ApiUtils {
             //owner
             assetTable.setOwner_address(loginUser.getAddress());//Write yourself directly, may be no data on the chain
             //user update
-            if (loginUser.getAddress().equals(asset.getOwner().getAddress())) {
+            if (loginUser.getAddress().equals(asset.getOwner().getAddress()) && null != asset.getOwner().getUser()) {
                 loginUser.setUsername(asset.getOwner().getUser().getUsername());
                 loginUser.setProfile_img_url(asset.getOwner().getProfile_img_url());
             }
@@ -188,7 +188,9 @@ public class ApiUtils {
             //creator
             assetTable.setCreator_address(asset.getCreator().getAddress());
             assetTable.setCreator_profile_img_url(asset.getCreator().getProfile_img_url());
-            assetTable.setCreator_username(asset.getCreator().getUser().getUsername());
+            if (null != asset.getCreator().getUser()) {
+                assetTable.setCreator_username(asset.getCreator().getUser().getUsername());
+            }
             //contract
             assetTable.setContract_address(asset.getAsset_contract().getAddress());
             //Disposal contract table

@@ -66,7 +66,7 @@ public class AssetBrowsePresenter extends Presenter {
             vh.iv_media_type.setVisibility(View.GONE);
         }
 
-        MyUtils.loadImage(vh.imageView.getContext(), vh.imageView, asset.getAsset_image_preview_url(), R.mipmap.ic_preview_placeholder);
+        MyUtils.loadImage(vh.imageView.getContext(), vh.imageView, asset.getAsset_image_url(), R.mipmap.ic_preview_placeholder);
         vh.frame_asset_box.setOnClickListener(v -> mClickListener.onClick(asset));
     }
 

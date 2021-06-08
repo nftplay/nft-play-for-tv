@@ -22,6 +22,6 @@ public class AssetPlayAdapter extends BaseQuickAdapter<AssetTable, BaseViewHolde
 
     @Override
     protected void convert(@NotNull BaseViewHolder viewHolder, AssetTable item) {
-        MyUtils.loadImage(getContext(), viewHolder.getView(R.id.iv_image), item.getAsset_image_url(), R.mipmap.ic_full_placeholder);
+        MyUtils.loadImage(getContext(), viewHolder.getView(R.id.iv_image), item.getAsset_image_original_url(), R.mipmap.ic_full_placeholder);
     }
 }

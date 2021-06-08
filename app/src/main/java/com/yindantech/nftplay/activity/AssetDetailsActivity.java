@@ -130,7 +130,7 @@ public class AssetDetailsActivity extends BaseActivity {
         if (null != mUser.getPlayList()) {
             mPlayList.addAll(mUser.getPlayList());
         }
-        MyUtils.loadImage(this, iv_image, mAssetTable.getAsset_image_url(), R.mipmap.ic_full_placeholder);
+        MyUtils.loadImage(this, iv_image, mAssetTable.getAsset_image_original_url(), R.mipmap.ic_full_placeholder);
         //Expand more by default
         tv_asset_name.setText(MyUtils.getAssetName(mAssetTable));
         tv_asset_identifier.setText(getString(R.string.asset_identifier, mAssetTable.getAsset_token_id(), mAssetTable.getContract_address()));
