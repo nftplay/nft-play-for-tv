@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frame_asset_box"
+        android:layout_width="250dp"
+        android:layout_height="140.625dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/asset_browse_selector">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/image_placeholder_bg"
+            android:src="@mipmap/ic_preview_placeholder"></ImageView>
+
+
+        <CheckBox
+            android:id="@+id/cb_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:button="@drawable/checkbox_edit_selector"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:visibility="gone"></CheckBox>
+
+
+        <ImageView
+            android:id="@+id/iv_media_type"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"></ImageView>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp"></TextView>
+
+
+</LinearLayout>

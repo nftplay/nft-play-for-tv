@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFT Play</string>
+    <string name="setting_language_auto">跟隨系統</string>
+    <string name="network_error">網絡錯誤</string>
+    <string name="notify_no_network">沒有連接網絡</string>
+    <string name="time_out_please_try_again_later">網絡超時請重試</string>
+    <string name="esky_service_exception">服務器異常</string>
+
+    <string name="setting_language_english">English</string>
+    <string name="setting_simplified_chinese">简体中文</string>
+    <string name="setting_traditional_chinese">繁體中文</string>
+    <string name="address_invalid">無效的地址</string>
+    <string name="assetid_invalid">assetid無效</string>
+    <string name="asset_no_exist">NFT資產不存在</string>
+    <string name="cancel_select_all">取消全選</string>
+    <string name="select_all">全選</string>
+    <string name="asset_creator">創建者：%s</string>
+    <string name="asset_owner">所有者：%s</string>
+    <string name="asset_identifier">標識：%s@%s</string>
+    <string name="asset_description">描述：%s</string>
+    <string name="see_more_info">查看更多信息</string>
+    <string name="see_more_info_close">收起</string>
+    <string name="no_network_check_settings">請檢查網絡設置</string>
+    <string name="slogan">把偉大的NFT作品展示在客廳</string>
+    <string name="language_settings">語言設置</string>
+    <string name="setting_play_interval_time">設置播放間隔時間</string>
+    <string name="time_10s">10秒</string>
+    <string name="time_30s">30秒</string>
+    <string name="time_1m">1分鐘</string>
+    <string name="time_5m">5分鐘</string>
+    <string name="time_10m">10分鐘</string>
+    <string name="time_30m">30分鐘</string>
+    <string name="time_1h">1小時</string>
+    <string name="time_1d">1天</string>
+    <string name="asset_no_nft_data">沒有獲得任何NFT資產</string>
+    <string name="add_play_list">加入播放列表</string>
+    <string name="loading_ing">加載中...</string>
+    <string name="main_title">我的NFTs</string>
+    <string name="refresh">刷新</string>
+    <string name="player">播放</string>
+    <string name="exit_login">退出登錄</string>
+    <string name="see_play_list">查看已加入列表</string>
+    <string name="play_settings">播放設置</string>
+    <string name="edit_play_list">編輯播放列表</string>
+    <string name="has_add">已加入</string>
+    <string name="language_switch">語言</string>
+    <string name="request_exception_416">請求範圍不符合要求</string>
+    <string name="json_data_exception">數據解析失敗</string>
+    <string name="max_load_asset_count">最多加載%d個NFT</string>
+    <string name="play_interval_lock_tip">在播放時按確認鍵可以鎖定播放</string>
+    <string name="no_select_nft">請至少選擇一個NFT</string>
+    <string name="edit">編輯</string>
+    <string name="click2back">再按一次退出程序</string>
+    <string name="refresh_qrcode">按OK鍵刷新二維碼</string>
+    <string name="play_key_tip_show_hide_menu">預覽&#038;播放設置</string>
+    <string name="play_key_tip_play_pause">鎖定/解鎖</string>
+    <string name="asset_data_update">NFT資產數據更新啦</string>
+    <string name="settings">設置</string>
+    <string name="auto_start_app">開機啟動</string>
+    <string name="auto_start_app_des">允許APP在開機時自動啟動</string>
+    <string name="auto_start_app_support">需要設備支持</string>
+    <string name="play_data_no_exist">播放的NFT不存在，請重新選擇</string>
+    <string name="auto_play_video_music">自動播放視頻和音頻</string>
+
+
+</resources>

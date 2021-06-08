@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/settings">
+
+
+    <Preference
+        android:icon="@drawable/ic_play_settings_selector"
+        android:key="prefs_play_setting"
+        android:title="@string/play_settings"></Preference>
+
+
+    <Preference
+        android:icon="@drawable/ic_language_selector"
+        android:key="prefs_language_setting"
+        android:title="@string/language_settings"></Preference>
+
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_boot_start_selector"
+        android:key="prefs_auto_start_settings"
+        android:title="@string/auto_start_app">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="prefs_auto_start_app_key"
+            android:summary="@string/auto_start_app_support"
+            android:title="@string/auto_start_app_des"></SwitchPreference>
+    </PreferenceScreen>
+
+
+    <Preference
+        android:icon="@drawable/ic_exit_selector"
+        android:key="prefs_exit_login"
+        android:title="@string/exit_login"></Preference>
+
+
+    <Preference
+        android:key="prefs_version"
+        android:selectable="false"></Preference>
+
+</PreferenceScreen>

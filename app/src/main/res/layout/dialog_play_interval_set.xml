@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="420dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_radius_5_bg"
+    android:focusable="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="25dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/setting_play_interval_time"
+        android:textColor="@color/black"
+        android:textSize="18sp"></TextView>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_10s"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_1d"
+            android:nextFocusDown="@id/rb_30s"
+            android:paddingLeft="15dp"
+            android:text="@string/time_10s"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/rb_30s"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_10s"
+            android:nextFocusDown="@id/rb_1m"
+            android:paddingLeft="15dp"
+            android:text="@string/time_30s"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_1m"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_30s"
+            android:nextFocusDown="@id/rb_5m"
+            android:paddingLeft="15dp"
+            android:text="@string/time_1m"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_5m"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_1m"
+            android:nextFocusDown="@id/rb_10m"
+            android:paddingLeft="15dp"
+            android:text="@string/time_5m"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_10m"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_5m"
+            android:nextFocusDown="@id/rb_30m"
+            android:paddingLeft="15dp"
+            android:text="@string/time_10m"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_30m"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_10m"
+            android:nextFocusDown="@id/rb_1h"
+            android:paddingLeft="15dp"
+            android:text="@string/time_30m"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_1h"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_30m"
+            android:nextFocusDown="@id/rb_1d"
+            android:paddingLeft="15dp"
+            android:text="@string/time_1h"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_1d"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_1h"
+            android:nextFocusDown="@id/rb_10s"
+            android:paddingLeft="15dp"
+            android:text="@string/time_1d"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/play_interval_lock_tip"
+        android:textColor="@android:color/darker_gray"></TextView>
+
+</LinearLayout>

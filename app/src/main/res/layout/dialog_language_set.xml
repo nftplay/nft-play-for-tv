@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="420dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_radius_5_bg"
+    android:focusable="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="25dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/language_settings"
+        android:textColor="@color/black"
+        android:textSize="18sp"></TextView>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_en"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_zh_hk"
+            android:nextFocusDown="@id/rb_zh"
+            android:paddingLeft="15dp"
+            android:text="English"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/rb_zh"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_en"
+            android:nextFocusDown="@id/rb_zh_hk"
+            android:paddingLeft="15dp"
+            android:text="简体中文"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_zh_hk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_interval_bg_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_interval_selector"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@id/rb_zh"
+            android:nextFocusDown="@id/rb_en"
+            android:paddingLeft="15dp"
+            android:text="繁體中文"
+            android:textColor="@color/chekbox_text_color_selector"></RadioButton>
+
+
+    </RadioGroup>
+
+</LinearLayout>

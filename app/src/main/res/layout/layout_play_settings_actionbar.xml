@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_bar_bg">
+
+    <TextView
+        android:id="@+id/tv_play_settings_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:focusable="false"
+        android:text="@string/edit_play_list"
+        android:textColor="@color/white"
+        android:textSize="28sp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_play_settings_select_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="35dp"
+        android:layout_toLeftOf="@+id/tv_play_settings_player"
+        android:background="@drawable/menu_bg_selector"
+        android:drawableLeft="@mipmap/ic_select_all_white"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusRight="@id/tv_play_settings_player"
+        android:nextFocusUp="@null"
+        android:text="@string/select_all"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_play_settings_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/menu_bg_selector"
+        android:drawableLeft="@drawable/ic_play_selector"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:nextFocusLeft="@id/tv_play_settings_select_all"
+        android:nextFocusRight="@null"
+        android:nextFocusUp="@null"
+        android:text="@string/player"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp"></TextView>
+
+</RelativeLayout>

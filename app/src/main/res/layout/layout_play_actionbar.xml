@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#9E232121">
+
+    <TextView
+        android:id="@+id/tv_play_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/menu_bg_selector"
+        android:drawableLeft="@drawable/ic_play_settings_selector"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusRight="@null"
+        android:nextFocusUp="@null"
+        android:text="@string/play_settings"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp"></TextView>
+
+</RelativeLayout>

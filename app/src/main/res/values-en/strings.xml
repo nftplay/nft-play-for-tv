@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_language_auto">Follow System</string>
+    <string name="app_name">NFT Play</string>
+    <string name="network_error">Network Error</string>
+    <string name="notify_no_network">No Network Connection</string>
+    <string name="time_out_please_try_again_later">Network Timeout Please Try Again</string>
+    <string name="esky_service_exception">Server Exception</string>
+    <string name="setting_language_english">English</string>
+    <string name="setting_simplified_chinese">简体中文</string>
+    <string name="setting_traditional_chinese">繁體中文</string>
+    <string name="address_invalid">Invalid Address</string>
+    <string name="assetid_invalid">Invalid Assetid</string>
+    <string name="asset_no_exist">NFT Asset Does Not Exist</string>
+    <string name="cancel_select_all">Select None</string>
+    <string name="select_all">Select All</string>
+    <string name="asset_creator">Creator：%s</string>
+    <string name="asset_owner">Owner：%s</string>
+    <string name="asset_identifier">Identifier：%s@%s</string>
+    <string name="asset_description">Description：%s</string>
+    <string name="see_more_info">See More</string>
+    <string name="see_more_info_close">Hide</string>
+    <string name="no_network_check_settings">Please Check The Network Settings</string>
+    <string name="slogan">Show Your Great NFTs In Livingroom</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="setting_play_interval_time">Set Play Interval</string>
+    <string name="time_10s">10 Seconds</string>
+    <string name="time_30s">30 Seconds</string>
+    <string name="time_1m">1 Minutes</string>
+    <string name="time_5m">5 Minutes</string>
+    <string name="time_10m">10 Minutes</string>
+    <string name="time_30m">30 Minutes</string>
+    <string name="time_1h">1 Hours</string>
+    <string name="time_1d">1 Day</string>
+    <string name="asset_no_nft_data">There Are No NFT Assets</string>
+    <string name="add_play_list">add to Playlist</string>
+    <string name="loading_ing">Loading...</string>
+    <string name="main_title">My NFTs</string>
+    <string name="refresh">Refresh</string>
+    <string name="player">Play</string>
+    <string name="exit_login">Login Off</string>
+    <string name="see_play_list">View Play List</string>
+    <string name="play_settings">Play Setings</string>
+    <string name="edit_play_list">Edit Play List</string>
+    <string name="has_add">Added</string>
+    <string name="language_switch">Language</string>
+    <string name="request_exception_416">The Requested Scope Does Not Meet The Requirements</string>
+    <string name="json_data_exception">Data Parsing Failed</string>
+    <string name="max_load_asset_count">Load a Maximum Of %d NFT</string>
+    <string name="play_interval_lock_tip">Press The OK Button to Lock Current Play</string>
+    <string name="no_select_nft">Please Select At Least One NFT</string>
+    <string name="edit">Edit</string>
+    <string name="click2back">Press Again To Exit This Application</string>
+    <string name="refresh_qrcode">Press OK Button To Refresh The QR Code</string>
+    <string name="play_key_tip_show_hide_menu">Browse&#038;Play Settings</string>
+    <string name="play_key_tip_play_pause">Lock/Unlock</string>
+    <string name="asset_data_update">NFT Asset Data Updated, Reload The Page</string>
+    <string name="settings">Settings</string>
+    <string name="auto_start_app">Boot Start</string>
+    <string name="auto_start_app_des">Allow The APP To Start Auto</string>
+    <string name="auto_start_app_support">Device Support Required</string>
+    <string name="play_data_no_exist">Playback NFT Does Not Exist. Please Reselect</string>
+    <string name="auto_play_video_music">Auto Play Video And Audio</string>
+
+
+</resources>

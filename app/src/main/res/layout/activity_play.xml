@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--play view-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+    <!--more info-->
+    <include layout="@layout/layout_asset_details_info"></include>
+
+    <!--top menu-->
+    <include
+        android:id="@+id/rl_play_action_bar"
+        layout="@layout/layout_play_actionbar"
+        android:visibility="gone"></include>
+
+    <!--lock-->
+    <ImageView
+        android:id="@+id/iv_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:src="@mipmap/ic_lock"
+        android:visibility="gone"></ImageView>
+
+    <!--preview-->
+    <!--The height here is fixed based on the height and spacing of the item, otherwise it will fill the screen. The wrap_content setting is invalid-->
+    <androidx.leanback.widget.HorizontalGridView
+        android:id="@+id/horizontalGridView"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:visibility="gone"></androidx.leanback.widget.HorizontalGridView>
+
+
+    <include
+        layout="@layout/layout_play_key_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"></include>
+</RelativeLayout>

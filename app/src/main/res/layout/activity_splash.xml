@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/view_splash_no_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_gray_radius_20_bg"
+                android:focusable="false"
+                android:paddingLeft="60dp"
+                android:paddingTop="10dp"
+                android:paddingRight="60dp"
+                android:paddingBottom="10dp"
+                android:text="@string/no_network_check_settings"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:visibility="visible"></androidx.appcompat.widget.AppCompatButton>
+
+            <TextView
+                android:id="@+id/tv_splash_app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="50sp"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_splash_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_logo_splash"></ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/slogan"
+            android:textColor="@color/white"
+            android:textSize="26sp">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/layout_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true">
+        <!--Add dynamically in your code-->
+        <!--    <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"></WebView>-->
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tv_splash_key_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:alpha="0"
+        android:background="@drawable/shape_black_transparent_radius_5_bg"
+        android:drawableLeft="@mipmap/ic_key_ok"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingLeft="22dp"
+        android:paddingTop="15dp"
+        android:paddingRight="22dp"
+        android:paddingBottom="15dp"
+        android:text="@string/refresh_qrcode"
+        android:textColor="@color/white"></TextView>
+
+
+    <include
+        android:id="@+id/layout_loading"
+        layout="@layout/layout_loading"
+        android:visibility="gone"></include>
+
+    <ImageView
+        android:id="@+id/iv_debug"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        android:src="@drawable/debug_ic"
+        android:visibility="gone" />
+
+</FrameLayout>
