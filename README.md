@@ -4,15 +4,12 @@
 <div align=left>
 <a href='https://play.google.com/store/apps/details?id=com.yindantech.nftplay'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="50px"/></a>
  
-<center>
-
-![](https://play-lh.googleusercontent.com/opvrFymPl-MmcCquwdaKejP8QQMBrnAsYGJDWu1JEqqSMBsQdPn00Cf9RVZ3CbauTw=w650-h280-rw) ![](https://play-lh.googleusercontent.com/qqL4wV_nnwff-XzcWxqfqcjlCbXuHHFc1z9If_z0DUPKN4leWK_RwDTqK_w1cG5YN8Xm=w650-h280-rw)
-</center>
-
-<center>
-
-![](https://play-lh.googleusercontent.com/I7IWHBh1e0ulsH4AGOQiXqAENBH0ahfTIyMh6BKotNrO6TsZ_pffbSBpigNCy7BCx_gV=w650-h280-rw) ![](https://play-lh.googleusercontent.com/j12WosiUcOU9K0oijNlF8LrLsIf1gEAL1UG2LnMUAOdmw7DlnhbNFVTR79wC4-mLzik=w650-h280-rw)
-</center>
+ 
+![](https://play-lh.googleusercontent.com/opvrFymPl-MmcCquwdaKejP8QQMBrnAsYGJDWu1JEqqSMBsQdPn00Cf9RVZ3CbauTw=w720-h310-rw) 
+![](https://play-lh.googleusercontent.com/qqL4wV_nnwff-XzcWxqfqcjlCbXuHHFc1z9If_z0DUPKN4leWK_RwDTqK_w1cG5YN8Xm=w720-h310-rw)
+![](https://play-lh.googleusercontent.com/I7IWHBh1e0ulsH4AGOQiXqAENBH0ahfTIyMh6BKotNrO6TsZ_pffbSBpigNCy7BCx_gV=w720-h310-rw)
+![](https://play-lh.googleusercontent.com/j12WosiUcOU9K0oijNlF8LrLsIf1gEAL1UG2LnMUAOdmw7DlnhbNFVTR79wC4-mLzik=w720-h310-rw)
+![](https://play-lh.googleusercontent.com/J4N4tWQnHurWixL3ErZr-PF9gHtPVmKK6818HUyZecJSqbO4DC0Z-uh7UGpLK5_Lrg=w720-h310-rw)
 
  
 
